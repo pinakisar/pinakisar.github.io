@@ -2,17 +2,14 @@
 # Each entry needs: name, duration, info
 # Optional: photo, email
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  duration: 1951-55
+- name: Sangeeta Chowdhary
+  duration: 2010
   info: Now at Jet Propulsion Laboratory
 
-- name: William Frazer
-  photo: team/william-frazer.svg
-  duration: 1954-58
+- name: Ekramul Islam
+  duration: 2011
   info: Now Professor at UC San Diego
 
-- name: Robert Hellwarth
-  photo: team/robert-hellwarth.svg
-  duration: 1952-56
+- name: Paltu Kumar Dhal
+  duration: 2012
   info: Now Professor at USC
