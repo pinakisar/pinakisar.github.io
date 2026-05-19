@@ -3,18 +3,26 @@
 # Optional: email, website, scholar, github, researchgate, cv
 # Photos go in images/ or images/team/
 
-- name: George Zweig
+- name: Sreya P K
   photo: team/george-zweig.svg
-  info: PhD Student, Quark Model
+  info: PostDoc
 
-- name: Albert Hibbs
+- name: Rajendra P Sahu
+  photo: team/george-zweig.svg
+  info: PhD, Exploration of deep granitic microbiome in Late Cretaceous Deccan traps and
+underlying Archean basement, India.
+
+- name: Shuchishloka Chakaraborty
   photo: team/albert-hibbs.svg
-  info: PhD Student, Quantum Mechanics
+  info: PhD, Effect of nitrogen cycles in Arsenic contaminated paddy soil
 
-- name: Thomas Curtright
+- name: Swatilekha Sarkar
   photo: team/thomas-curtright.svg
-  info: PhD Student, Quantum Field Theory
+  info: PhD, Characterization of thermotolerant, acetogenic bacteria from deep subsurface
 
-- name: "This could be you!"
-  photo: rock.jpg
-  info: See openings for more info
+- name: Debarshi Mukherjee
+  photo: team/albert-hibbs.svg
+  info: PhD, Carbon dioxide (CO2) utilization and conversion to organic compounds by
+endolithic microorganisms at elevated temperature and CO2
+
+
