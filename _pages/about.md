@@ -80,40 +80,6 @@ permalink: /about/
 {% endif %}
 </div>
 
-<div class="section-card">
-<h3>Research Supervision</h3>
-<h4>Doctoral Students</h4>
-<p><strong>Completed (12)</strong></p>
-<ul>
-  <li>Sangeta Chowdhary (2010) — Uranium and heavy metal resistance in <em>Pseudomonas aeruginosa</em>: potential in bioremediation</li>
-  <li>Ekramul Islam (2011) — Microbial diversity in uranium mines and bacterial interaction with uranium</li>
-  <li>Paltu Kumar Dhal (2012) — Microbial community structure at uranium mine sites of UCIL, Jaduguda</li>
-  <li>Angana Sarkar (2015) — Microbiology of arsenic-contaminated groundwater and bacterial role in arsenic transformation</li>
-  <li>Dhiraj Paul (2015) — Microbial diversity in arsenic-contaminated groundwater of West Bengal</li>
-  <li>Soma Ghosh (2018) — Bacterial communities in arsenic-contaminated groundwater of the Brahmaputra River basin</li>
-  <li>Poulomi Sarkar (2019) — Petroleum refinery waste microbial community and hydrocarbon bioremediation potential</li>
-  <li>Jayeeta Sarkar (2019) — Metagenomic insights into microbial community of petroleum refinery waste</li>
-  <li>Avishek Dutta (2019) — Geomicrobiology of deep subsurface granitic-basaltic environment at Koyna-Warna, India</li>
-  <li>Balaram Mohapatra (2019) — Arsenic-transforming bacteria from contaminated groundwater: eco-genomic perspectives</li>
-  <li>Abhishek Gupta (2020) — Microbial ecology of acid mine drainage at Malanjkhand copper project</li>
-  <li>Anumeha Saha (2023) — Geomicrobiology of arsenic-contaminated groundwater of West Bengal: spatiotemporal variation</li>
-</ul>
-<p><strong>Continuing (7)</strong></p>
-<ul>
-  <li>Rajendra P. Sahu — Deep granitic microbiome in Late Cretaceous Deccan Traps and underlying Archean basement</li>
-  <li>Mitali Merchant — Landfill microbiome and bioremediation potential</li>
-  <li>Shuchisloka Chakraborty — Nitrogen cycles in arsenic-contaminated paddy soil</li>
-  <li>Swatilekha Sarkar — Thermotolerant, acetogenic bacteria from deep subsurface</li>
-  <li>Debarshi Mukherjee — CO&#8322; utilization and conversion by endolithic microorganisms at elevated temperature</li>
-  <li>Roopmalya Basu</li>
-  <li>Sumit Rez</li>
-</ul>
-<h4 style="margin-top: var(--space-4);">Master's Students</h4>
-<ul>
-  <li>Sourav Mukhopadhyay, M.S. (2022) — Poly-extremotolerant bacteria from deep subsurface crust of Late Cretaceous Deccan Traps</li>
-  <li>Over 25 students have completed their M.Tech. thesis under supervision</li>
-</ul>
-</div>
 
 <div class="section-card">
 <h3>Grants &amp; Funding</h3>
