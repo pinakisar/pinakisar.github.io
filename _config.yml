@@ -1,30 +1,29 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "Environmental Microbial and Genomics Lab - Pinaki Sar"
+title: "Professor, Department of Biosciences and Biotechnology"
+institution: "Indian Institute of Technology Kharagpur"
+email: psar@bt.iitkgp.ac.in
+photo: profile.jpeg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
+  google_scholar: "https://scholar.google.com/citations?user=tV8YrpQAAAAJ&hl=en"
+  researchgate: "https://www.researchgate.net/profile/Pinaki-Sar"
   orcid: ""
   twitter: ""
-  linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  linkedin: "https://in.linkedin.com/in/pinaki-sar-79865a21a"
+  cv: "papers/biosketch.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Prof Pinaki Sar @ EMG Lab"
 baseurl: ""
 url: ""
 
