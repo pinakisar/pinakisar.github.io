@@ -17,12 +17,12 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">CO2 Sequestration</a>
 </div>
 
-Hi. 
-At IIT Kharagpur, I lead the <bold>Environmental Microbiology and Genomics Laboratory</bold>. Our major research activity is focused on exploring environmental microbiomes and their biotechnological potentials using a combination of multi-omics and geo-analytical approaches. This includes elucidation of microbial community compositions and function, species interaction, bio-geo interactions and deciphering the details of the community function and its environmental regulation. 
+
+At IIT Kharagpur, I lead the <b>Environmental Microbiology and Genomics Laboratory</b>. Our major research activity is focused on exploring environmental microbiomes and their biotechnological potentials using a combination of multi-omics and geo-analytical approaches. This includes elucidation of microbial community compositions and function, species interaction, bio-geo interactions and deciphering the details of the community function and its environmental regulation. 
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-graduation-cap callout-icon"></i> Looking for PhDs </div>
-<p>We are welcoming for PhD applications from students interested in: environmental microbiology, marine microbiology, bioinformatics, genomics and exploratory research. |</p>
+<p>We are welcoming for PhD applications from students interested in: <b>environmental microbiology, marine microbiology, bioinformatics, genomics </b> and <b> exploratory research </b>. </p>
 </div>
 
 <div class="banner-frame" markdown="0">
@@ -32,7 +32,6 @@ At IIT Kharagpur, I lead the <bold>Environmental Microbiology and Genomics Labor
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I am a microbiologist working in the field of environmental microbiology and genomics. 
+I received my BSc and MSc in botany in 1991 and 1993 respectively from University of Burdwan, Burdwan, India and went on to earn my PhD from Banaras Hindu University in 1999.
+I was a Dr K S Krishnan Research Associate at Bhabha Atomic Research Centre, Mumbai, India from 2000-2002, and a BOYSCAST fellow at Rice University, Houston, Texas, USA from 2007-2008. I joined the BSBT Department of IIT Kharagpur in 2004.
