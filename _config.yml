@@ -1,7 +1,7 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Environmental Microbial and Genomics Lab - Pinaki Sar"
+name: "Pinaki Sar"
 title: "Professor, Department of Biosciences and Biotechnology"
 institution: "Indian Institute of Technology Kharagpur"
 email: psar@bt.iitkgp.ac.in
@@ -37,12 +37,9 @@ analytics:
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
   - name: research
-  - name: software
   - name: team
   - name: teaching
-  - name: blogs
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
@@ -75,8 +72,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Sar
+  first_name: [Pinaki]
   style: citesty
   locale: en
   source: /assets/
