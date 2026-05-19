@@ -9,21 +9,20 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Geomicrobiology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Deep Biosphere</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Microbial Genomics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Metagenomics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bioremediation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">CO2 Sequestration</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+Hi. 
+At IIT Kharagpur, I lead the <bold>Environmental Microbiology and Genomics Laboratory</bold>. Our major research activity is focused on exploring environmental microbiomes and their biotechnological potentials using a combination of multi-omics and geo-analytical approaches. This includes elucidation of microbial community compositions and function, species interaction, bio-geo interactions and deciphering the details of the community function and its environmental regulation. 
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-graduation-cap callout-icon"></i> Looking for PhDs </div>
+<p>We are welcoming for PhD applications from students interested in: environmental microbiology, marine microbiology, bioinformatics, genomics and exploratory research. |</p>
 </div>
 
 <div class="banner-frame" markdown="0">
