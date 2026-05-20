@@ -4,12 +4,12 @@
 
 - name: Sangeeta Chowdhary
   duration: 2010
-  info: Now at Jet Propulsion Laboratory
+  #info: "Now at Jet Propulsion Laboratory"
 
 - name: Ekramul Islam
   duration: 2011
-  info: Now Professor at UC San Diego
+  #info: "Now Professor at UC San Diego"
 
 - name: Paltu Kumar Dhal
   duration: 2012
-  info: Now Professor at USC
+  #info: Now Professor at USC
