@@ -36,9 +36,8 @@ analytics:
 # ============================================================
 nav_pages:
   - name: about
-  - name: publications
-  - name: research
   - name: team
+  - name: research
   - name: teaching
 
 # ============================================================
