@@ -36,8 +36,9 @@ analytics:
 # ============================================================
 nav_pages:
   - name: about
-  - name: team
+  - name: lab team
   - name: research
+  - name: projects
   - name: teaching
 
 # ============================================================
