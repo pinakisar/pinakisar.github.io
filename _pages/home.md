@@ -26,12 +26,11 @@ At IIT Kharagpur, I lead the <b>Environmental Microbiology and Genomics Laborato
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.png" alt="EMGL work" loading="lazy">
 </div>
 
 ### About me
 
 I am a microbiologist working in the field of environmental microbiology and genomics. 
 I received my BSc and MSc in botany in 1991 and 1993 respectively from University of Burdwan, Burdwan, India and went on to earn my PhD from Banaras Hindu University in 1999.
-I was a Dr K S Krishnan Research Associate at Bhabha Atomic Research Centre, Mumbai, India from 2000-2002, and a BOYSCAST fellow at Rice University, Houston, Texas, USA from 2007-2008. I joined the BSBT Department of IIT Kharagpur in 2004.
+I was a Dr K S Krishnan Research Associate at Bhabha Atomic Research Centre, Mumbai, India from 2000-2002, and a BOYSCAST fellow at Rice University, Houston, Texas, USA from 2007-2008. I joined the BSBT Department of IIT Kharagpur in 2004. I have been holding the position of Head of the Department of BSBT since December 2024.
