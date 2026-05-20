@@ -5,7 +5,10 @@ sitemap: false
 permalink: /research/
 ---
 
+
 ## Research
+
+Our lab works at the intersection of microbial ecology, genomics, and environmental biotechnology. We study microbial life in extreme and understudied environments — from deep subsurface rocks to arsenic-contaminated aquifers — and harness microbial capabilities for biotechnological and environmental applications.
 
 <div class="research-grid">
 
