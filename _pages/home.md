@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <h2 class="home-hero">{{ site.name }}</h2>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<p class="home-hero-sub">{{ site.title }} <br> {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Geomicrobiology</a>
