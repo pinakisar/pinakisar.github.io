@@ -3,15 +3,15 @@
 // =============================================================
 
 :root {
-  // Accent — a warm scholarly teal
-  --accent: #1a7a6d;
-  --accent-hover: #15655a;
-  --accent-light: rgba(26, 122, 109, 0.08);
+  // Accent — green
+  --accent: #5f945a;
+  --accent-hover: #3d7338;
+  --accent-light: rgba(26, 150, 109, 0.08);
 
   // Light mode — warm parchment tones
-  --bg-primary: #f8f6f1;
-  --bg-secondary: #f0ece4;
-  --bg-card: #ffffff;
+  --bg-primary: #f4f6f1;   
+--bg-secondary: #eaede4;
+--bg-card: #fafcf8;      
   --text-primary: #2c2a25;
   --text-secondary: #5c5850;
   --text-muted: #8a857c;
@@ -55,9 +55,9 @@
   --accent-hover: #5dd4c2;
   --accent-light: rgba(61, 186, 168, 0.1);
 
-  --bg-primary: #1c1b18;
-  --bg-secondary: #262520;
-  --bg-card: #2a2924;
+  --bg-primary: #1a1c18;  
+--bg-secondary: #22261f; 
+--bg-card: #272b23;   
   --text-primary: #e8e4dc;
   --text-secondary: #b5b0a5;
   --text-muted: #7d796f;
