@@ -85,11 +85,11 @@ permalink: /about/
 <h3>Grants &amp; Funding</h3>
 <h4>Ongoing</h4>
 <ul>
-  <li>Carbon and energy metabolisms of deep life within the granitic basement of Koyna seismogenic zone — Ministry of Earth Sciences, Govt. of India (2022–2025). &#8377;49,42,000. <em>PI</em></li>
-  <li>CO&#8322; fixation by chemoautotrophic microbial communities from deep subsurface rocks for application in third-generation biorefineries — DST-SERB, Govt. of India (2022–2025). &#8377;50,22,952. <em>PI</em></li>
-  <li>Understanding landfill microbiome and application for bioremediation of environmental pollutants — Tata Consultancy Services (2018–2023). &#8377;51,11,760. <em>PI</em></li>
-  <li>Understanding structure, function and evolution of regulatory networks with emphasis on human diseases — Department of Biotechnology, Govt. of India (2022–2027). &#8377;1,40,21,164. <em>Co-PI</em></li>
-  <li>Sustainable operation of post-combustion capture plants — Department of Science and Technology (2021–2024). &#8377;1,05,01,379. <em>Co-PI</em></li>
+  <li>Carbon and energy metabolisms of deep life within the granitic basement of Koyna seismogenic zone — Ministry of Earth Sciences, Govt. of India (2022–2025).  <em>PI</em></li>
+  <li>CO&#8322; fixation by chemoautotrophic microbial communities from deep subsurface rocks for application in third-generation biorefineries — DST-SERB, Govt. of India (2022–2025). <em>PI</em></li>
+  <li>Understanding landfill microbiome and application for bioremediation of environmental pollutants — Tata Consultancy Services (2018–2023). <em>PI</em></li>
+  <li>Understanding structure, function and evolution of regulatory networks with emphasis on human diseases — Department of Biotechnology, Govt. of India (2022–2027). <em>Co-PI</em></li>
+  <li>Sustainable operation of post-combustion capture plants — Department of Science and Technology (2021–2024). <em>Co-PI</em></li>
 </ul>
 <h4 style="margin-top: var(--space-4);">Selected Completed Grants</h4>
 <ul>
