@@ -4,46 +4,42 @@
 # Photos go in images/ or images/team/
 
 - name: Sreya P K
-  photo: team/george-zweig.svg
+  photo: team/sreya-pk.jpg
   info: "PostDoc"
   bio: "I am working as an Institute Post-Doctoral Fellow at the Environmental Microbiology and Genomics Laboratory. My research employs a diversity-driven approach to explore the taxonomic and functional potential of deep-ocean microbial communities and translate these discoveries into developing sustainable microbial strategies for the recovery of critical metals."
 
 - name: Debarshi Mukherjee
-  photo: 
+  photo: team/debarshi.jpg
   info: "PhD"
   bio: "I work on assessing chemolithoautotrophic extremotolerant for their carbon valorisation potential. To this end, I am enriching the bacterial communities inhabiting numerous geochemically distinct rock samples, recovered from depths of up to 3 Km and determining their carbon bioconversion efficiency under different culture media. These microorganisms are expected to have adapted to the low organic carbon content and high temperatures in the deep subsurface to develop capability to fix carbon while growing at high temperatures. This makes them uniquely suitable to be employed in carbon capture and utilisation from gaseous exhaust of industries and thermal power plants. I am also reanalysing metagenomic data collected by our laboratory from the deep subsurface of Koyna region over the past decade. This shall be used to bioprospect this environment for potent workhorses for carbon valorisation and other applications, as well as to track interspecies interactions at metabolic and genetic levels."
-  
-- name: Shuchishloka Chakraborty
-  photo: team/albert-hibbs.svg
-  info: "PhD, Effect of nitrogen cycles in arsenic contaminated paddy soil"
 
 - name: Swatilekha Sarkar
-  photo: team/thomas-curtright.svg
+  photo: team/swatil.jpg
   info: "PhD, Characterization of thermotolerant, acetogenic bacteria from deep subsurface"
   bio: "I am working as an UGC-Senior Research Fellow at the Environmental Microbiology and Genomics Laboratory, Indian Institute of Technology Kharagpur. My work focuses on physiological, genomic and metabolic characterization of acetogenic bacterial communities from deep subsurface of Deccan Traps, India. Another aspect of my work involves isolation of extremophilic microorganisms from deep subsurface to understand their metabolic versatility, ecological significance, biotechnological and astrobiological potential."
 
 - name: Roopmalya Basu
-  photo:
+  photo: team/roopm.jpg
   info: "PhD"
   bio: "Microbes are globally ubiquitous drivers of key ecosystem processes. In order to understand the effects of chemical pollutants on ecosystem health, we must study how microbes respond and adapt to changing environments. I work on understanding microbial responses to amine exposure, from individual bacterial strains to microbial communities. I investigate how these responses influence soil biogeochemical cycling and plant–soil ecosystem functioning. I also isolate and characterize amine-degrading bacteria for the advancements of sustainable bioremediation strategies."
 
 - name: Sumit Rez
-  photo:
+  photo: team/sumit.jpg
   info: "PhD"
   bio: "My research focuses on the isolation, and multi-omic characterization of thermophilic anaerobic microorganisms from the deep crystalline granitic subsurface rocks of the Koyna Seismogenic Zone, India. By integrating targeted culuromic, metagenomic, and comparative genomic approaches, my work aims to unravel microbial adaptation and their pivotal role in maintaining local biogeochemical cycles in the deep biosphere while exploring the potential of these extremophiles for sustainable industrial biotechnological applications."
 
 - name: Sanjukta Ghosh
-  photo:
+  photo: team/sanjukta.jpg
   info: "PhD"
   bio: "My research interest includes understanding the role of microorganisms mediating iron cycle in arsenic contaminated paddy soils in West Bengal. It also focuses on investigating the molecular mechanism behind the iron biogeochemical cycle in rice field."
 
 - name: Sabnaj Khatun
-  photo:
+  photo: team/sabnaj.jpg
   info: "PhD"
   bio: "My research explores the role of marine bacteria in  manganese redox cycling. My work combines microbial enrichment and isolation, molecular characterization, and functional analyses to understand the mechanisms by which bacteria mediate manganese transformations and contribute to biogeochemical cycling."
 
 - name: Shaheen Malik
-  photo: 
+  photo: team/shaheen.jpg
   info: "PhD"
   bio: "My research focuses on developing novel thermophilic chemoautotrophic bacterial workhorses for carbon capture and utilization. I am trying to study their molecular mechanisms of thermotolerance, CO2 fixation ability, and metabolic adaptation under high-temperature conditions using physiological, molecular, and genomic approaches. My work aims to develop robust microbial systems for sustainable bioprocesses to capture and utilize carbon from the gaseous exhaust of industries and thermal power plants."
   
