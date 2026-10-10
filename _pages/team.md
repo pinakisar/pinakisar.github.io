@@ -86,56 +86,51 @@ permalink: /team/
 
 <a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
 
-<!-- Overlay -->
-<div id="drawer-overlay" onclick="closeDrawer()" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:1000;"></div>
-
-<!-- Side Drawer -->
-<div id="member-drawer" style="display:none; position:fixed; top:0; right:0; height:100%; width:400px; max-width:92vw; background:var(--bg-card); z-index:1001; overflow-y:auto; box-shadow:-6px 0 32px rgba(0,0,0,0.18); border-left: 1px solid var(--border-color);">
-  <div style="display:flex; justify-content:flex-end; padding:1rem 1.25rem 0;">
-    <button onclick="closeDrawer()" title="Close" style="background:none; border:none; cursor:pointer; color:var(--text-secondary); font-size:1.4rem; line-height:1; padding:0.25rem 0.5rem;">&times;</button>
-  </div>
-  <div style="text-align:center; padding: 0.5rem 2rem 1.5rem;">
-    <img id="drawer-photo" src="" alt="" style="width:130px; height:130px; object-fit:cover; border-radius:50%; border: 3px solid var(--border-color); margin-bottom:1rem;">
-    <h3 id="drawer-name" style="margin:0 0 0.25rem;"></h3>
-    <p id="drawer-info" style="color:var(--accent); font-style:italic; font-size:0.9rem; margin:0;"></p>
-  </div>
-  <hr style="border:none; border-top:1px solid var(--border-color); margin: 0 2rem 1.5rem;">
-  <div style="padding: 0 2rem 2rem;">
-    <p id="drawer-bio" style="line-height:1.8; color:var(--text-primary); font-size:0.95rem; margin:0;"></p>
-  </div>
-</div>
-
 <script>
-function openDrawer(card) {
-  var name  = document.getElementById('drawer-name');
-  var info  = document.getElementById('drawer-info');
-  var bio   = document.getElementById('drawer-bio');
-  var photo = document.getElementById('drawer-photo');
-  var drawer  = document.getElementById('member-drawer');
-  var overlay = document.getElementById('drawer-overlay');
+(function() {
+  // Inject drawer into body once
+  if (document.getElementById('member-drawer')) return;
 
-  if (!name || !drawer) {
-    console.error('Drawer elements not found');
-    return;
+  document.body.insertAdjacentHTML('beforeend', `
+    <div id="drawer-overlay" onclick="closeDrawer()" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:1000;"></div>
+    <div id="member-drawer" style="display:none; position:fixed; top:0; right:0; height:100%; width:400px; max-width:92vw; background:var(--bg-card); z-index:1001; overflow-y:auto; box-shadow:-6px 0 32px rgba(0,0,0,0.18); border-left:1px solid var(--border-color);">
+      <div style="display:flex; justify-content:flex-end; padding:1rem 1.25rem 0;">
+        <button onclick="closeDrawer()" style="background:none; border:none; cursor:pointer; color:var(--text-secondary); font-size:1.4rem;">&times;</button>
+      </div>
+      <div style="text-align:center; padding:0.5rem 2rem 1.5rem;">
+        <img id="drawer-photo" src="" alt="" style="width:130px; height:130px; object-fit:cover; border-radius:50%; border:3px solid var(--border-color); margin-bottom:1rem;">
+        <h3 id="drawer-name" style="margin:0 0 0.25rem;"></h3>
+        <p id="drawer-info" style="color:var(--accent); font-style:italic; font-size:0.9rem; margin:0;"></p>
+      </div>
+      <hr style="border:none; border-top:1px solid var(--border-color); margin:0 2rem 1.5rem;">
+      <div style="padding:0 2rem 2rem;">
+        <p id="drawer-bio" style="line-height:1.8; color:var(--text-primary); font-size:0.95rem; margin:0;"></p>
+      </div>
+    </div>
+  `);
+
+  function openDrawer(card) {
+    document.getElementById('drawer-name').textContent  = card.dataset.name;
+    document.getElementById('drawer-info').textContent  = card.dataset.info;
+    document.getElementById('drawer-bio').textContent   = card.dataset.bio;
+    document.getElementById('drawer-photo').src         = card.dataset.photo;
+    document.getElementById('drawer-photo').alt         = card.dataset.name;
+    document.getElementById('member-drawer').style.display  = 'block';
+    document.getElementById('drawer-overlay').style.display = 'block';
+    document.body.style.overflow = 'hidden';
   }
 
-  name.textContent  = card.dataset.name;
-  info.textContent  = card.dataset.info;
-  bio.textContent   = card.dataset.bio;
-  photo.src         = card.dataset.photo;
-  photo.alt         = card.dataset.name;
-  drawer.style.display  = 'block';
-  overlay.style.display = 'block';
-  document.body.style.overflow = 'hidden';
-}
+  function closeDrawer() {
+    document.getElementById('member-drawer').style.display  = 'none';
+    document.getElementById('drawer-overlay').style.display = 'none';
+    document.body.style.overflow = '';
+  }
 
-function closeDrawer() {
-  document.getElementById('member-drawer').style.display  = 'none';
-  document.getElementById('drawer-overlay').style.display = 'none';
-  document.body.style.overflow = '';
-}
+  window.openDrawer  = openDrawer;
+  window.closeDrawer = closeDrawer;
 
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeDrawer();
-});
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeDrawer();
+  });
+})();
 </script>
