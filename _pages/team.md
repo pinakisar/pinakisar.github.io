@@ -42,9 +42,9 @@ permalink: /team/
 {% for member in site.data.team_members %}
 <div class="team-card"
   {% if member.bio %}onclick="openDrawer(this)" style="cursor: pointer;"{% endif %}
-  data-name="{{ member.name }}"
-  data-info="{{ member.info }}"
-  data-bio="{{ member.bio }}"
+  data-name="{{ member.name | escape }}"
+  data-info="{{ member.info | escape }}"
+  data-bio="{{ member.bio | escape }}"
   data-photo="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
   <h4 class="team-name">{{ member.name }}</h4>
