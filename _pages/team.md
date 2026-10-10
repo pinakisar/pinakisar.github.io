@@ -92,8 +92,8 @@ permalink: /team/
   if (document.getElementById('member-drawer')) return;
 
   document.body.insertAdjacentHTML('beforeend', `
-    <div id="drawer-overlay" onclick="closeDrawer()" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:1000;"></div>
-    <div id="member-drawer" style="display:none; position:fixed; top:0; right:0; height:100%; width:400px; max-width:92vw; background:var(--bg-card); z-index:1001; overflow-y:auto; box-shadow:-6px 0 32px rgba(0,0,0,0.18); border-left:1px solid var(--border-color);">
+    <div id="drawer-overlay" onclick="closeDrawer()" style="position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:1000; opacity:0; transition:opacity 0.3s ease; pointer-events:none;"></div>
+    <div id="member-drawer" style="position:fixed; top:0; right:0; height:100%; width:400px; max-width:92vw; background:var(--bg-card); z-index:1001; overflow-y:auto; box-shadow:-6px 0 32px rgba(0,0,0,0.18); border-left:1px solid var(--border-color); transform:translateX(100%); transition:transform 0.3s cubic-bezier(0.22,1,0.36,1);">
       <div style="display:flex; justify-content:flex-end; padding:1rem 1.25rem 0;">
         <button onclick="closeDrawer()" style="background:none; border:none; cursor:pointer; color:var(--text-secondary); font-size:1.4rem;">&times;</button>
       </div>
@@ -109,22 +109,31 @@ permalink: /team/
     </div>
   `);
 
-  function openDrawer(card) {
-    document.getElementById('drawer-name').textContent  = card.dataset.name;
-    document.getElementById('drawer-info').textContent  = card.dataset.info;
-    document.getElementById('drawer-bio').textContent   = card.dataset.bio;
-    document.getElementById('drawer-photo').src         = card.dataset.photo;
-    document.getElementById('drawer-photo').alt         = card.dataset.name;
-    document.getElementById('member-drawer').style.display  = 'block';
-    document.getElementById('drawer-overlay').style.display = 'block';
-    document.body.style.overflow = 'hidden';
-  }
+function openDrawer(card) {
+  document.getElementById('drawer-name').textContent = card.dataset.name;
+  document.getElementById('drawer-info').textContent = card.dataset.info;
+  document.getElementById('drawer-bio').textContent  = card.dataset.bio;
+  document.getElementById('drawer-photo').src        = card.dataset.photo;
+  document.getElementById('drawer-photo').alt        = card.dataset.name;
 
-  function closeDrawer() {
-    document.getElementById('member-drawer').style.display  = 'none';
-    document.getElementById('drawer-overlay').style.display = 'none';
-    document.body.style.overflow = '';
-  }
+  var drawer  = document.getElementById('member-drawer');
+  var overlay = document.getElementById('drawer-overlay');
+
+  overlay.style.pointerEvents = 'auto';
+  overlay.style.opacity       = '1';
+  drawer.style.transform      = 'translateX(0)';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDrawer() {
+  var drawer  = document.getElementById('member-drawer');
+  var overlay = document.getElementById('drawer-overlay');
+
+  drawer.style.transform      = 'translateX(100%)';
+  overlay.style.opacity       = '0';
+  overlay.style.pointerEvents = 'none';
+  document.body.style.overflow = '';
+}
 
   window.openDrawer  = openDrawer;
   window.closeDrawer = closeDrawer;
